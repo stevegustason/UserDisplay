@@ -5,17 +5,22 @@
 //  Created by Steven Gustason on 4/29/23.
 //
 
+// Note: Left off needing to update ListView to have a List that uses ForEach to show all of the user data, then need to populate DetailView
+
 import SwiftUI
 
 struct ContentView: View {
+    @State var users = [User]()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            if users.count == 0 {
+                DownloadView(users: $users)
+            } else {
+                ListView()
+            }
         }
-        .padding()
+        .navigationTitle("User Display")
     }
 }
 

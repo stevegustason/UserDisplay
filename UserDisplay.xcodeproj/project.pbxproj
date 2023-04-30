@@ -13,6 +13,9 @@
 		1246C50629FDE15B002FFCB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1246C50529FDE15B002FFCB2 /* Preview Assets.xcassets */; };
 		1246C50D29FDE1AD002FFCB2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1246C50C29FDE1AD002FFCB2 /* User.swift */; };
 		1246C50F29FDE1BA002FFCB2 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1246C50E29FDE1BA002FFCB2 /* Friend.swift */; };
+		1246C51129FEF8BA002FFCB2 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1246C51029FEF8BA002FFCB2 /* ListView.swift */; };
+		1246C51329FEF8C1002FFCB2 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1246C51229FEF8C1002FFCB2 /* DetailView.swift */; };
+		1246C51529FEF969002FFCB2 /* DownloadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1246C51429FEF969002FFCB2 /* DownloadView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		1246C50529FDE15B002FFCB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1246C50C29FDE1AD002FFCB2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		1246C50E29FDE1BA002FFCB2 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		1246C51029FEF8BA002FFCB2 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		1246C51229FEF8C1002FFCB2 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		1246C51429FEF969002FFCB2 /* DownloadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 			children = (
 				1246C4FE29FDE15A002FFCB2 /* UserDisplayApp.swift */,
 				1246C50029FDE15A002FFCB2 /* ContentView.swift */,
+				1246C51429FEF969002FFCB2 /* DownloadView.swift */,
+				1246C51029FEF8BA002FFCB2 /* ListView.swift */,
+				1246C51229FEF8C1002FFCB2 /* DetailView.swift */,
 				1246C50C29FDE1AD002FFCB2 /* User.swift */,
 				1246C50E29FDE1BA002FFCB2 /* Friend.swift */,
 				1246C50229FDE15B002FFCB2 /* Assets.xcassets */,
@@ -144,7 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1246C50129FDE15A002FFCB2 /* ContentView.swift in Sources */,
+				1246C51329FEF8C1002FFCB2 /* DetailView.swift in Sources */,
 				1246C4FF29FDE15A002FFCB2 /* UserDisplayApp.swift in Sources */,
+				1246C51129FEF8BA002FFCB2 /* ListView.swift in Sources */,
+				1246C51529FEF969002FFCB2 /* DownloadView.swift in Sources */,
 				1246C50D29FDE1AD002FFCB2 /* User.swift in Sources */,
 				1246C50F29FDE1BA002FFCB2 /* Friend.swift in Sources */,
 			);
